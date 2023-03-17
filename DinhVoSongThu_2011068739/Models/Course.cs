@@ -10,6 +10,7 @@ namespace DinhVoSongThu_2011068739.Models
     {
         public int Id { get; set; }
         public ApplicationUser Lecturer { get; set; }
+        public string LecturerId { get; set; }
         [Required]
         [StringLength(255)]
         public string Place { get; set; }
